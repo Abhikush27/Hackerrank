@@ -1,7 +1,7 @@
 package BinaryTree;
 import java.util.*;
 
-import BinaryTree.Implementation.Node;
+import BinaryTree.Implementation.*;
 
 public class LevelOrder {
 	
@@ -23,7 +23,8 @@ public class LevelOrder {
 	public static void main(String[] args) {
 		
 		buildTrees t2 = new builTrees();
-		
+		Node nodes = t2.BinaryTree();
+		levelOrder(nodes);
 
 	}
 
